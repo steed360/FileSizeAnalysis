@@ -10,10 +10,11 @@ figures are the state 'going into' each date.  It could be modified to have repo
 Specifically a monthly snapshot (or annual snapshot) in which the three measures values are calculated:
 - Number Active
 - Number_New	(i.e: "Number In")
-- Number_Lapsed (i.e. "Number Lapsed") 
+- Number_Lapsed (i.e. "Number Out") 
 
-The final table is aggregated over just each reporting date so individual customer details are just counted. 
-The raw customer level table could be useful for more detailed analysis. 
+The final table is aggregated over  each reporting date so individual customer details are lost but represented in the final counts. 
+The raw customer level table could be useful for more detailed analysis, e.g. do customers lapse and then become active again, does this level of 
+granularity give a better prediction of future lapsing than just using the current state of a customers? Possibly.
 
 Inputs:
 dbo.Transactions
