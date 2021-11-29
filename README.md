@@ -17,7 +17,8 @@ https://www.youtube.com/watch?v=toieZmcz2ZQ
 Contents:
 
 GenerateFile.ipynb             - Create transactions.csv:  a simulated set of customers and their transactions
+
 Calculate_File_Size_Trends.SQL - Create the table that is read into Tableau (*)
 
-* In fact it was run twice: once for monthly snapshots and once for Quarterly snapshots - the tableau viz will show both using a toggle.
+(*) In fact it was run twice: once for monthly snapshots and once for Quarterly snapshots - the tableau viz will show both using a toggle.
 
