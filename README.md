@@ -2,8 +2,8 @@
 Periodic Snapshots Showing Active File Size in a Direct Marketing Environment
 
 The active file is a marketing term describing the number of customers who have transacted within a certain time frame.  
-Active customers may have a high propensity to purchase again and because they are easily reachable (permissions) allowing 
-the size of the file is relevant to future sales forecasting, historic marketing effectiveness and some other analytical tasks.
+Active customers may have a high propensity to purchase again and because they are easily reachable (permissions allowing), 
+the size of the file can be a useful starting point in relation to future sales forecasting, historic marketing effectiveness and some other analytical tasks.
 
 This repo is for simulating customer transactions and then using these to calculate the size of the active file over a range of 
 reporting snapshot dates. 
